@@ -37,12 +37,16 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
+    # sys
+    tree
     # web
     curl
     wget
     # ide
     vim
     vscode
+    # languages + deps
+    (python39.withPackages(ps: with ps; [ requests ]))
     # misc
     gitFull
     firefox

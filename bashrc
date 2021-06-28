@@ -50,4 +50,4 @@ PS1="\[\e[37m\][\[\e[m\]\[\e[35m\]\t\[\e[m\]\[\e[37m\]]\[\e[m\]\[\e[37m\][\[\e[m
 alias l="ls -l"
 alias ll="ls -alh"
 alias rebuild="sudo nixos-rebuild switch --show-trace"
-alias codeconfig="sudo code /etc/nixos/ --user-data-dir ~/code"
+alias config="sudo code /etc/nixos/ --user-data-dir ~/code"
