@@ -11,10 +11,11 @@
   };
 
   fileSystems."/mnt/share" = {
-    device = "192.168.178.52:/data";
+    device = "192.168.178.52:/";
     fsType = "nfs";
     options = [
       "nfsvers=4.2"
+      "users"
     ];
   };
 
