@@ -18,15 +18,18 @@
     yzhang.markdown-all-in-one
     ms-python.python
     jnoortheen.nix-ide
+    # ms-vscode-remote.remote-ssh
   ]; 
 
-  # override programs.bash.promptInit
   environment.etc = {
     "bashrc.local" = {
       source = "/etc/nixos/config/bashrc";
     };
     gitconfig = {
       source = "/etc/nixos/config/gitconfig";
+    };
+    "ssh/ssh_config" = {
+      source = "/etc/nixos/config/ssh_config";
     };
   };
 

@@ -1,0 +1,11 @@
+Host main
+    Hostname 192.168.178.52
+    User pi
+
+Host view
+    Hostname 192.168.178.29
+    User pi
+
+Host retro
+    Hostname 192.168.178.62
+    User pi
