@@ -10,5 +10,6 @@
     (python39.withPackages(ps: with ps; [ requests ]))
     gitFull
     firefox
+    jq
   ];
 }
